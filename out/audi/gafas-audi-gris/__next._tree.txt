@@ -1,0 +1,3 @@
+:HL["/_next/static/chunks/3to55y9c8t-r3.css","style"]
+:HL["/_next/static/media/cf514f5d0007dafa-s.p.1wc2mf9hp9pav.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4184,"slots":{"children":{"name":"brand","param":{"type":"d","key":"audi","siblings":[]},"prefetchHints":4196,"slots":{"children":{"name":"slug","param":{"type":"d","key":"gafas-audi-gris","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"DNo2aA0agi5IAkhPJxc4R"}
