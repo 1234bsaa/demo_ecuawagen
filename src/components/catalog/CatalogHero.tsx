@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "motion/react";
 import { AnimatedNumber } from "@/components/motion/AnimatedNumber";
 import { Container } from "@/components/layout/Container";
+import { assetPath } from "@/lib/basePath";
 import type { BrandConfig } from "@/config/brands";
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -28,7 +29,7 @@ export function CatalogHero({ brand, productCount, categoryCount }: CatalogHeroP
         transition={{ duration: 1.8, ease }}
       >
         <Image
-          src={brand.hero.image}
+          src={assetPath(brand.hero.image)}
           alt=""
           fill
           priority

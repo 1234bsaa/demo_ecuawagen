@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { stripBasePath } from "@/lib/basePath";
 import { readCatalogMemory, writeCatalogMemory } from "@/lib/catalogMemory";
 
 /**
@@ -12,10 +13,10 @@ export function CatalogMemoryTracker({ brandId }: { brandId: string }) {
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       const link = (e.target as Element | null)?.closest?.("a[href]");
-      const href = link?.getAttribute("href");
-      if (!href?.startsWith(`/${brandId}/`)) return;
+      const href = stripBasePath(link?.getAttribute("href") ?? "");
+      if (!href.startsWith(`/${brandId}/`)) return;
       writeCatalogMemory(brandId, {
-        href: window.location.pathname + window.location.search,
+        href: stripBasePath(window.location.pathname) + window.location.search,
         scrollY: window.scrollY,
         pending: true,
       });
@@ -27,7 +28,7 @@ export function CatalogMemoryTracker({ brandId }: { brandId: string }) {
   // Restaurar al volver.
   useEffect(() => {
     const memory = readCatalogMemory(brandId);
-    const current = window.location.pathname + window.location.search;
+    const current = stripBasePath(window.location.pathname) + window.location.search;
     if (!memory?.pending) return;
     writeCatalogMemory(brandId, { ...memory, pending: false });
     if (memory.href !== current) return;
@@ -35,8 +36,8 @@ export function CatalogMemoryTracker({ brandId }: { brandId: string }) {
     let tries = 0;
     const restore = () => {
       window.scrollTo({ top: memory.scrollY, behavior: "instant" });
-      // Reintenta unos cuadros por si el contenido aún está midiéndose.
-      if (Math.abs(window.scrollY - memory.scrollY) > 2 && ++tries < 12) requestAnimationFrame(restore);
+      // Reintenta (~2 s): el listado se monta en el cliente y puede tardar en tener altura.
+      if (Math.abs(window.scrollY - memory.scrollY) > 2 && ++tries < 120) requestAnimationFrame(restore);
     };
     requestAnimationFrame(restore);
   }, [brandId]);

@@ -5,7 +5,7 @@ import { MockProductRepository } from "./mock.repository";
 import { ProductService } from "./product.service";
 import type { ProductRepository } from "./product.repository";
 
-export { SORT_OPTIONS, DEFAULT_PAGE_SIZE } from "./product.service";
+export { SORT_OPTIONS, DEFAULT_PAGE_SIZE } from "./catalog";
 
 /**
  * Único punto de acceso para la UI. Por defecto usa datos locales (mock).

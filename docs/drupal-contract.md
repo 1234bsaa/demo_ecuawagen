@@ -8,7 +8,6 @@ Este documento define lo que el CMS debe exponer para activar `DATA_SOURCE=drupa
 DATA_SOURCE=drupal
 DRUPAL_BASE_URL=https://cms.ejemplo.com
 DRUPAL_REVALIDATE_SECONDS=300          # opcional
-DRUPAL_REVALIDATE_SECRET=<secreto>     # opcional, para el webhook
 ```
 Si Drupal no responde, la app registra un aviso y sirve los datos locales (`FallbackProductRepository`).
 
@@ -38,13 +37,10 @@ GET {BASE}/jsonapi/node/product
 ```
 Sigue `links.next` hasta agotar la paginación. Cada respuesta se cachea con la etiqueta `products:<marca>`.
 
-## Revalidación bajo demanda
-Configurar en Drupal (p. ej. módulo *Webhooks*/ECA) al guardar un producto:
-```
-POST {FRONTEND}/api/revalidate?brand=audi
-x-revalidate-secret: <DRUPAL_REVALIDATE_SECRET>
-```
-Responde `401` si el secreto es incorrecto.
+## Actualización del contenido
+El sitio se publica como exportación estática (GitHub Pages): el contenido de Drupal se lee **al compilar**.
+Para reflejar un cambio, dispara de nuevo el workflow `.github/workflows/pages.yml` (p. ej. con un webhook de Drupal que llame a `workflow_dispatch` de GitHub).
+Si algún día se despliega en un servidor Node (sin `output: "export"`), se puede añadir una ruta `/api/revalidate` con `revalidateTag("products:<marca>")`; el cliente ya etiqueta sus peticiones con esa clave.
 
 ## Imágenes remotas
 Al usar Drupal añadir el host del CMS a `images.remotePatterns` en `next.config.ts`.
