@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "audi-p06_01",
+    "slug": "reloj-titanium",
+    "brand": "audi",
+    "name": "Reloj Titanium",
+    "description": "Exclusivo reloj de pulsera de Audi collection | Movimiento de cuarzo Ronda 5130.D | Caja de titanio macizo | Fondo de caja atornillado",
+    "price": {
+      "amount": 930.47,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p06_01.jpg",
+      "alt": "Reloj Titanium"
+    },
+    "category": "Relojes"
+  },
+  {
+    "id": "audi-p07_01",
+    "slug": "reloj-audi-womens",
+    "brand": "audi",
+    "name": "Reloj Audi Womens",
+    "description": "Material: acero inoxidable, piel de becerro Tamaño: diámetro: 36 mm, altura aprox. 7mm Color: dorado claro, blanco, gris",
+    "price": {
+      "amount": 303.03,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p07_01.jpg",
+      "alt": "Reloj Audi Womens"
+    },
+    "category": "Relojes"
+  },
+  {
+    "id": "audi-p08_01",
+    "slug": "cronografo-audi-funcion-solar-gris-marron",
+    "brand": "audi",
+    "name": "Cronógrafo Audi función solar, gris/marrón",
+    "description": "Audi - Cronógrafo con función solar, mecanismo de cronógrafo con energía solar Epson VR42, carcasa de acero inoxidable pulido 316 L, cristal de seguridad especialmente curvado K1",
+    "price": {
+      "amount": 534.75,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p08_01.jpg",
+      "alt": "Cronógrafo Audi función solar, gris/marrón"
+    },
+    "category": "Relojes"
+  },
+  {
+    "id": "audi-p09_01",
+    "slug": "reloj-audi-cronografo",
+    "brand": "audi",
+    "name": "Reloj Audi Cronógrafo",
+    "description": "- Movimiento de cuarzo Ronda 5040.D - Caja negra de acero inoxidable 316 L con revestimiento IP, - Corona y base de la carcasa atornilladas - Bisel fijo de cerámica en negro mate con taquímetro - Cristal de zafiro antirreflectante de una sola cara - Esfera negra mate",
+    "price": {
+      "amount": 713.0,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p09_01.jpg",
+      "alt": "Reloj Audi Cronógrafo"
+    },
+    "category": "Relojes"
+  },
+  {
+    "id": "audi-p10_01",
+    "slug": "reloj-audi-sport-negro",
+    "brand": "audi",
+    "name": "Reloj Audi Sport Negro",
+    "description": "RESISTENTE AL AGUA HASTA 5 ATM | DIÁMETRO: 45 MM, ALTURA: 12,4 MM MATERIAL: PLÁSTICO, ACERO INOXIDABLE, SILICONA COLOR: NEGRO Y ROJO",
+    "price": {
+      "amount": 213.9,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p10_01.jpg",
+      "alt": "Reloj Audi Sport Negro"
+    },
+    "category": "Relojes"
+  },
+  {
+    "id": "audi-p12_01",
+    "slug": "gafas-gunmetal-grey",
+    "brand": "audi",
+    "name": "Gafas Gunmetal Grey",
+    "description": "Dimensiones – Ancho de las gafas: 145 mm | Longitud de la patilla: 145 mm | Altura del cristal: 49 mm | Ancho del cristal: 62 mm | Ancho del puente: 14 mm Material – Marco: acero inoxidable | Cristales: CR39 Color – Marco: gris Gunmetal | Cristales: ahumado",
+    "price": {
+      "amount": 178.25,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p12_01.jpg",
+      "alt": "Gafas Gunmetal Grey"
+    },
+    "category": "Gafas"
+  },
+  {
+    "id": "audi-p13_01",
+    "slug": "gafas-women-gold-black",
+    "brand": "audi",
+    "name": "Gafas Women Gold Black",
+    "description": "Dimensiones: ancho de las gafas: 138 mm | longitud de la patilla: 140 mm | altura de la lente: 47 mm | ancho de la lente: 55 mm | ancho del puente: 19 mm Material: montura: acero inoxidable/acetato | lentes: CR39",
+    "price": {
+      "amount": 213.9,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p13_01.jpg",
+      "alt": "Gafas Women Gold Black"
+    },
+    "category": "Gafas"
+  },
+  {
+    "id": "audi-p14_01",
+    "slug": "gafas-brown-dame",
+    "brand": "audi",
+    "name": "Gafas Brown Dame",
+    "description": "Dimensiones – Ancho de las gafas: 143 mm | Longitud de la patilla: 145 mm | Altura del cristal: 45 mm | Ancho del cristal: 54 mm | Ancho del puente: 20 mm Material – Marco: acetato biodegradable | Cristales: CR39",
+    "price": {
+      "amount": 202.02,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p14_01.jpg",
+      "alt": "Gafas Brown Dame"
+    },
+    "category": "Gafas"
+  },
+  {
+    "id": "audi-p15_01",
+    "slug": "gafas-audi-gris",
+    "brand": "audi",
+    "name": "Gafas Audi Gris",
+    "description": "Dimensiones: ancho de las gafas: 146 mm | longitud de la patilla: 145 mm | altura de la lente: 47 mm | ancho de la lente: 61 mm | ancho del puente: 16 mm Material: montura: acero inoxidable, lentes: nailon",
+    "price": {
+      "amount": 240.64,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p15_01.jpg",
+      "alt": "Gafas Audi Gris"
+    },
+    "category": "Gafas"
+  },
+  {
+    "id": "audi-p16_01",
+    "slug": "gafas-audi-pilot",
+    "brand": "audi",
+    "name": "Gafas Audi Pilot",
+    "description": "Gafas de sol de puente único con facetas - Montura y varillas de acero inoxidable - Cristales tintados con degradado gris azulado - Filtro de categoría 3, UV 400 - Incluye estuche y paño de limpieza",
+    "price": {
+      "amount": 240.64,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p16_01.jpg",
+      "alt": "Gafas Audi Pilot"
+    },
+    "category": "Gafas"
+  },
+  {
+    "id": "audi-p17_01",
+    "slug": "gafas-sport-black",
+    "brand": "audi",
+    "name": "Gafas Sport Black",
+    "description": "Dimensiones: ancho de las gafas: 140 mm | Longitud de la patilla: 135 mm | Altura de la lente: 47 mm | Ancho del cristal: 58 mm | Ancho del puente: 16 mm Material: Carcasa: Rilsan G850, lentes: policarbonato, color: negro",
+    "price": {
+      "amount": 219.84,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p17_01.jpg",
+      "alt": "Gafas Sport Black"
+    },
+    "category": "Gafas"
+  },
+  {
+    "id": "audi-p18_01",
+    "slug": "gafas-audi-gris-mujer",
+    "brand": "audi",
+    "name": "Gafas Audi Gris Mujer",
+    "description": "Montura de acetato gris transparente Lentes con tinte degradado en marrón rojizo Núcleo decorativo del templo con franjas cortadas con láser. Filtro de categoría 3, filtro UV 400 Incluye estuche para gafas y paño de limpieza.",
+    "price": {
+      "amount": 240.64,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p18_01.jpg",
+      "alt": "Gafas Audi Gris Mujer"
+    },
+    "category": "Gafas"
+  },
+  {
+    "id": "audi-p19_01",
+    "slug": "gafas-audi-habana",
+    "brand": "audi",
+    "name": "Gafas Audi Habana",
+    "description": "- Montura de acetato con estampado habana - Embellecidas con remaches sutiles y adornos en plata - Filtro de categoría 3, UV 400 - Incluye estuche de gran calidad y paño de limpieza",
+    "price": {
+      "amount": 240.64,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p19_01.jpg",
+      "alt": "Gafas Audi Habana"
+    },
+    "category": "Gafas"
+  },
+  {
+    "id": "audi-p21_01",
+    "slug": "audi-umbrella-big",
+    "brand": "audi",
+    "name": "Audi Umbrella Big",
+    "description": "Paraguas grande Audi en negro con detalles claros y el emblema de los cuatro aros. Amplia cobertura y un estilo elegante para los días de lluvia.",
+    "price": {
+      "amount": 71.3,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p21_01.jpg",
+      "alt": "Audi Umbrella Big"
+    },
+    "category": "Paraguas"
+  },
+  {
+    "id": "audi-p22_01",
+    "slug": "gorra-negra",
+    "brand": "audi",
+    "name": "Gorra Negra",
+    "description": "Gorra negra con los cuatro aros Audi bordados al frente. Diseño clásico y versátil que combina con cualquier look.",
+    "price": {
+      "amount": 38.89,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p22_01.jpg",
+      "alt": "Gorra Negra"
+    },
+    "category": "Gorras"
+  },
+  {
+    "id": "audi-p23_01",
+    "slug": "gorra-blanca",
+    "brand": "audi",
+    "name": "Gorra Blanca",
+    "description": "Gorra blanca con el logo Audi bordado en negro. Un accesorio fresco y deportivo para el día a día.",
+    "price": {
+      "amount": 32.0,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p23_01.jpg",
+      "alt": "Gorra Blanca"
+    },
+    "category": "Gorras"
+  },
+  {
+    "id": "audi-p24_01",
+    "slug": "paraguas-audiport",
+    "brand": "audi",
+    "name": "Paraguas Audiport",
+    "description": "Paraguas Audi Sport en negro con costuras y mango en rojo. Diseño deportivo y llamativo que protege con carácter.",
+    "price": {
+      "amount": 57.04,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p24_01.jpg",
+      "alt": "Paraguas Audiport"
+    },
+    "category": "Paraguas"
+  },
+  {
+    "id": "audi-p25_01",
+    "slug": "gorra-roja",
+    "brand": "audi",
+    "name": "Gorra Roja",
+    "description": "Gorra roja con los aros Audi bordados en blanco. Un toque de color con la identidad de la marca.",
+    "price": {
+      "amount": 38.61,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p25_01.jpg",
+      "alt": "Gorra Roja"
+    },
+    "category": "Gorras"
+  },
+  {
+    "id": "audi-p27_01",
+    "slug": "chaqueta-ligera-hombre-m",
+    "brand": "audi",
+    "name": "Chaqueta Ligera Hombre M",
+    "description": "Chaqueta ligera para hombre en gris con cuello alto, cierre frontal y puños elásticos. Ideal para media estación, con un corte moderno y cómodo.",
+    "price": {
+      "amount": 133.69,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p27_01.jpg",
+      "alt": "Chaqueta Ligera Hombre M"
+    },
+    "category": "Ropa"
+  },
+  {
+    "id": "audi-p28_01",
+    "slug": "polo-audi-blanco-hombre-m",
+    "brand": "audi",
+    "name": "Polo Audi Blanco Hombre M",
+    "description": "Polo blanco para hombre con detalle rojo en el cuello. Estilo casual elegante con la esencia de Audi.",
+    "price": {
+      "amount": 67.74,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p28_01.jpg",
+      "alt": "Polo Audi Blanco Hombre M"
+    },
+    "category": "Ropa"
+  },
+  {
+    "id": "audi-p29_01",
+    "slug": "camiseta-audi-blanco-hombre-m",
+    "brand": "audi",
+    "name": "Camiseta Audi Blanco Hombre M",
+    "description": "Camiseta blanca para hombre con estampado difuminado de los cuatro aros. Cómoda, fresca y con diseño exclusivo de la colección Audi.",
+    "price": {
+      "amount": 53.48,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p29_01.jpg",
+      "alt": "Camiseta Audi Blanco Hombre M"
+    },
+    "category": "Ropa"
+  },
+  {
+    "id": "audi-p30_01",
+    "slug": "audi-chaqueta-acolch-hombre-m",
+    "brand": "audi",
+    "name": "Audi Chaqueta Acolch Hombre M",
+    "description": "Chaqueta acolchada para hombre en negro con cierre frontal y detalle rojo. Abrigo y estilo deportivo para los días fríos.",
+    "price": {
+      "amount": 169.34,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p30_01.jpg",
+      "alt": "Audi Chaqueta Acolch Hombre M"
+    },
+    "category": "Ropa"
+  },
+  {
+    "id": "audi-p33_01",
+    "slug": "gorra-tec-cap-black",
+    "brand": "audi",
+    "name": "Gorra Tec-Cap Black",
+    "description": "Gorra negra tipo técnico con los aros Audi en tono sobre tono. Diseño sobrio y discreto de acabado moderno.",
+    "price": {
+      "amount": 69.49,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p33_01.jpg",
+      "alt": "Gorra Tec-Cap Black"
+    },
+    "category": "Gorras"
+  },
+  {
+    "id": "audi-p34_01",
+    "slug": "gorra-quattro-black",
+    "brand": "audi",
+    "name": "Gorra Quattro Black",
+    "description": "Gorra Quattro estilo snapback con visera plana y frente gris jaspeado. Look urbano y deportivo con el sello de la marca.",
+    "price": {
+      "amount": 49.91,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p34_01.jpg",
+      "alt": "Gorra Quattro Black"
+    },
+    "category": "Gorras"
+  },
+  {
+    "id": "audi-p35_01",
+    "slug": "gorra-audi-dark-grey",
+    "brand": "audi",
+    "name": "Gorra Audi Dark Grey",
+    "description": "Gorra gris oscuro con parche en el frente y forro naranja en la visera. Estilo deportivo con un contraste atractivo.",
+    "price": {
+      "amount": 80.21,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p35_01.jpg",
+      "alt": "Gorra Audi Dark Grey"
+    },
+    "category": "Gorras"
+  },
+  {
+    "id": "audi-p36_01",
+    "slug": "audi-gorra-negra",
+    "brand": "audi",
+    "name": "Audi Gorra Negra",
+    "description": "Gorra negra con aros Audi tono sobre tono y detalle rojo bajo la visera. Sencilla, elegante y con un guiño deportivo.",
+    "price": {
+      "amount": 49.91,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p36_01.jpg",
+      "alt": "Audi Gorra Negra"
+    },
+    "category": "Gorras"
+  },
+  {
+    "id": "audi-p37_01",
+    "slug": "gorra-audi-negra",
+    "brand": "audi",
+    "name": "Gorra Audi Negra",
+    "description": "Gorra negra con ribete gris en la visera y los aros Audi bordados. Sobria, cómoda y fácil de combinar.",
+    "price": {
+      "amount": 89.13,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p37_01.jpg",
+      "alt": "Gorra Audi Negra"
+    },
+    "category": "Gorras"
+  },
+  {
+    "id": "audi-p38_01",
+    "slug": "gorra-rs-q-e-tron-grey",
+    "brand": "audi",
+    "name": "Gorra Rs Q E-Tron Grey",
+    "description": "Gorra RS Q e-tron en gris con visera plana y diseño gráfico en el frente. Inspirada en el mundo del automovilismo deportivo.",
+    "price": {
+      "amount": 67.74,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p38_01.jpg",
+      "alt": "Gorra Rs Q E-Tron Grey"
+    },
+    "category": "Gorras"
+  },
+  {
+    "id": "audi-p40_01",
+    "slug": "bolsa-trasera-audi",
+    "brand": "audi",
+    "name": "Bolsa Trasera Audi",
+    "description": "Bolsa trasera Audi de formas aerodinámicas en gris con el logo de los aros. Práctica y con diseño distintivo para llevar lo esencial.",
+    "price": {
+      "amount": 213.9,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p40_01.jpg",
+      "alt": "Bolsa Trasera Audi"
+    },
+    "category": "Bolsos y viaje"
+  },
+  {
+    "id": "audi-p41_01",
+    "slug": "backpack-foldable",
+    "brand": "audi",
+    "name": "Backpack Foldable",
+    "description": "Mochila plegable Audi en negro con el logo de los cuatro aros. Ligera y fácil de guardar, perfecta para viajes y salidas.",
+    "price": {
+      "amount": 46.35,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p41_01.jpg",
+      "alt": "Backpack Foldable"
+    },
+    "category": "Bolsos y viaje"
+  },
+  {
+    "id": "audi-p42_01",
+    "slug": "audi-bag-packable-black",
+    "brand": "audi",
+    "name": "Audi Bag Packable Black",
+    "description": "Bolso bandolera compacto Audi en negro, con correa ajustable y logo frontal. Ideal para llevar lo esencial con las manos libres.",
+    "price": {
+      "amount": 46.47,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p42_01.jpg",
+      "alt": "Audi Bag Packable Black"
+    },
+    "category": "Bolsos y viaje"
+  },
+  {
+    "id": "audi-p43_01",
+    "slug": "bolso-crossbody-black",
+    "brand": "audi",
+    "name": "Bolso Crossbody Black",
+    "description": "Bolso crossbody Audi en negro con acabado tipo cuero y correa ajustable. Diseño elegante y funcional para uso diario o de oficina.",
+    "price": {
+      "amount": 338.68,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p43_01.jpg",
+      "alt": "Bolso Crossbody Black"
+    },
+    "category": "Bolsos y viaje"
+  },
+  {
+    "id": "audi-p44_01",
+    "slug": "maleta-de-uso-personal-audi",
+    "brand": "audi",
+    "name": "Maleta De Uso Personal Audi",
+    "description": "Neceser de viaje Audi en negro con banda roja, con asa y formato para colgar. Organiza tus artículos de aseo con estilo.",
+    "price": {
+      "amount": 80.21,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p44_01.jpg",
+      "alt": "Maleta De Uso Personal Audi"
+    },
+    "category": "Bolsos y viaje"
+  },
+  {
+    "id": "audi-p45_01",
+    "slug": "audi-airpods-pro-case-leath",
+    "brand": "audi",
+    "name": "Audi Airpods Pro Case Leath",
+    "description": "Estuche Audi para AirPods Pro en cuero negro con mosquetón metálico. Protege tus audífonos y se engancha donde lo necesites.",
+    "price": {
+      "amount": 115.86,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p45_01.jpg",
+      "alt": "Audi Airpods Pro Case Leath"
+    },
+    "category": "Bolsos y viaje"
+  },
+  {
+    "id": "audi-p46_01",
+    "slug": "audi-canguro-gris",
+    "brand": "audi",
+    "name": "Audi Canguro Gris",
+    "description": "Canguro Audi en gris con detalles naranja y logo de los aros. Cómodo, práctico y con estética deportiva.",
+    "price": {
+      "amount": 98.99,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p46_01.jpg",
+      "alt": "Audi Canguro Gris"
+    },
+    "category": "Bolsos y viaje"
+  },
+  {
+    "id": "audi-p47_01",
+    "slug": "audi-billetera-hombre",
+    "brand": "audi",
+    "name": "Audi Billetera Hombre",
+    "description": "Billetera para hombre Audi en cuero negro, con diseño clásico y elegante. Compacta y duradera para el uso diario.",
+    "price": {
+      "amount": 161.32,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p47_01.jpg",
+      "alt": "Audi Billetera Hombre"
+    },
+    "category": "Bolsos y viaje"
+  },
+  {
+    "id": "audi-p48_01",
+    "slug": "audi-neceser-negro",
+    "brand": "audi",
+    "name": "Audi Neceser Negro",
+    "description": "Neceser Audi en negro con asa superior, bolsillo frontal y logo de los aros. Espacioso, resistente y elegante para tus viajes.",
+    "price": {
+      "amount": 128.34,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p48_01.jpg",
+      "alt": "Audi Neceser Negro"
+    },
+    "category": "Bolsos y viaje"
+  },
+  {
+    "id": "audi-p49_01",
+    "slug": "audi-bolsa-nevera-negra-roja",
+    "brand": "audi",
+    "name": "Audi Bolsa Nevera Negra Roja",
+    "description": "Bolsa nevera Audi en negro y rojo con interior aislante. Mantiene tus bebidas y alimentos frescos en cada trayecto.",
+    "price": {
+      "amount": 71.3,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p49_01.jpg",
+      "alt": "Audi Bolsa Nevera Negra Roja"
+    },
+    "category": "Bolsos y viaje"
+  },
+  {
+    "id": "audi-p50_01",
+    "slug": "audi-bolsa-deportiva-negra",
+    "brand": "audi",
+    "name": "Audi Bolsa Deportiva Negra",
+    "description": "Bolsa deportiva Audi en negro con detalles rojos y logo Audi Sport. Espaciosa y resistente para el gimnasio o escapadas cortas.",
+    "price": {
+      "amount": 196.08,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p50_01.jpg",
+      "alt": "Audi Bolsa Deportiva Negra"
+    },
+    "category": "Bolsos y viaje"
+  },
+  {
+    "id": "audi-p52_01",
+    "slug": "llavero-audi-cuero-a3",
+    "brand": "audi",
+    "name": "Llavero Audi Cuero A3",
+    "description": "Llavero Audi en cuero negro con placa metálica grabada A3. Un detalle elegante para los fans del modelo.",
+    "price": {
+      "amount": 48.93,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p52_01.jpg",
+      "alt": "Llavero Audi Cuero A3"
+    },
+    "category": "Llaveros"
+  },
+  {
+    "id": "audi-p53_01",
+    "slug": "llavero-cuero-a3",
+    "brand": "audi",
+    "name": "Llavero Cuero A3",
+    "description": "Llavero en cuero negro y metal cromado con grabado A3. Acabado premium para llevar tu modelo siempre contigo.",
+    "price": {
+      "amount": 63.38,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p53_01.jpg",
+      "alt": "Llavero Cuero A3"
+    },
+    "category": "Llaveros"
+  },
+  {
+    "id": "audi-p54_01",
+    "slug": "llavero-audi-cuero-a4",
+    "brand": "audi",
+    "name": "Llavero Audi Cuero A4",
+    "description": "Llavero en cuero negro y metal cromado con grabado A4. Elegante, resistente y de acabado refinado.",
+    "price": {
+      "amount": 68.07,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p54_01.jpg",
+      "alt": "Llavero Audi Cuero A4"
+    },
+    "category": "Llaveros"
+  },
+  {
+    "id": "audi-p55_01",
+    "slug": "llavero-audi-cuero-q7",
+    "brand": "audi",
+    "name": "Llavero Audi Cuero Q7",
+    "description": "Llavero en cuero negro y metal cromado con grabado Q7. Un accesorio distinguido para los amantes de los SUV Audi.",
+    "price": {
+      "amount": 62.0,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p55_01.jpg",
+      "alt": "Llavero Audi Cuero Q7"
+    },
+    "category": "Llaveros"
+  },
+  {
+    "id": "audi-p56_01",
+    "slug": "llavero-audi-cuero-q8",
+    "brand": "audi",
+    "name": "Llavero Audi Cuero Q8",
+    "description": "Llavero en cuero negro y metal cromado con grabado Q8. Diseño sofisticado con el estilo de la marca.",
+    "price": {
+      "amount": 69.5,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p56_01.jpg",
+      "alt": "Llavero Audi Cuero Q8"
+    },
+    "category": "Llaveros"
+  },
+  {
+    "id": "audi-p57_01",
+    "slug": "llavero-e-tron-gt",
+    "brand": "audi",
+    "name": "Llavero E-Tron Gt",
+    "description": "Llavero con la silueta del Audi e-tron GT en metal y correa de cuero con costuras rojas. Una pieza de colección para los apasionados por la marca.",
+    "price": {
+      "amount": 121.8,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p57_01.jpg",
+      "alt": "Llavero E-Tron Gt"
+    },
+    "category": "Llaveros"
+  },
+  {
+    "id": "audi-p58_01",
+    "slug": "llavero-audi-cuero-e-tron",
+    "brand": "audi",
+    "name": "Llavero Audi Cuero E-Tron",
+    "description": "Llavero Audi en cuero negro con costuras rojas y placa metálica con los aros. Deportivo y elegante.",
+    "price": {
+      "amount": 70.11,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p58_01.jpg",
+      "alt": "Llavero Audi Cuero E-Tron"
+    },
+    "category": "Llaveros"
+  },
+  {
+    "id": "audi-p59_01",
+    "slug": "llavero-audi-q8-e-tron",
+    "brand": "audi",
+    "name": "Llavero Audi Q8 E-Tron",
+    "description": "Llavero en cuero negro y metal cromado con grabado Q8 e-tron. Un detalle premium para la movilidad eléctrica.",
+    "price": {
+      "amount": 54.85,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p59_01.jpg",
+      "alt": "Llavero Audi Q8 E-Tron"
+    },
+    "category": "Llaveros"
+  },
+  {
+    "id": "audi-p60_01",
+    "slug": "llavero-audi-cuero-damas",
+    "brand": "audi",
+    "name": "Llavero Audi Cuero Damas",
+    "description": "Llavero para dama con diseño de espada en metal plateado y argolla dorada. Original, delicado y con el sello Audi.",
+    "price": {
+      "amount": 61.2,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p60_01.jpg",
+      "alt": "Llavero Audi Cuero Damas"
+    },
+    "category": "Llaveros"
+  },
+  {
+    "id": "audi-p61_01",
+    "slug": "llavero-new-audi",
+    "brand": "audi",
+    "name": "Llavero New Audi",
+    "description": "Llavero Audi de metal cepillado con el emblema de los cuatro aros y cierre de cuero. Diseño moderno y minimalista.",
+    "price": {
+      "amount": 71.3,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p61_01.jpg",
+      "alt": "Llavero New Audi"
+    },
+    "category": "Llaveros"
+  },
+  {
+    "id": "audi-p63_01",
+    "slug": "gorra-audisport-comic-nino",
+    "brand": "audi",
+    "name": "Gorra Audisport Comic Niño",
+    "description": "Gorra Audi Sport infantil con estampado de cómic. Divertida, colorida y ajustable para los pequeños fans.",
+    "price": {
+      "amount": 42.78,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p63_01.jpg",
+      "alt": "Gorra Audisport Comic Niño"
+    },
+    "category": "Gorras"
+  },
+  {
+    "id": "audi-p64_01",
+    "slug": "reloj-audi-kids",
+    "brand": "audi",
+    "name": "Reloj Audi Kids",
+    "description": "Reloj Audi para niños con correa de silicón de colores y esfera clara para aprender la hora. Divertido y resistente.",
+    "price": {
+      "amount": 67.74,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p64_01.jpg",
+      "alt": "Reloj Audi Kids"
+    },
+    "category": "Relojes"
+  },
+  {
+    "id": "audi-p65_01",
+    "slug": "gorra-baseball-kid-bla-gris",
+    "brand": "audi",
+    "name": "Gorra Baseball Kid Bla/Gris",
+    "description": "Gorra de béisbol infantil en blanco y gris con visera roja y logo Audi Sport. Cómoda y con estilo deportivo.",
+    "price": {
+      "amount": 46.35,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p65_01.jpg",
+      "alt": "Gorra Baseball Kid Bla/Gris"
+    },
+    "category": "Gorras"
+  },
+  {
+    "id": "audi-p66_01",
+    "slug": "carro-audi-quattro-fc-bayer",
+    "brand": "audi",
+    "name": "Carro Audi Quattro Fc Bayer",
+    "description": "Carro correpasillos Audi Quattro edición FC Bayern en blanco con diseño a cuadros rojos. Un regalo ideal para pequeños aficionados al motor.",
+    "price": {
+      "amount": 417.11,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p66_01.jpg",
+      "alt": "Carro Audi Quattro Fc Bayer"
+    },
+    "category": "Coleccionables"
+  },
+  {
+    "id": "audi-p68_01",
+    "slug": "esferografico-audi-rings",
+    "brand": "audi",
+    "name": "Esferográfico Audi Rings",
+    "description": "Esferográfico Audi Rings en negro con el logo de los aros. Escritura fluida y presencia elegante en tu escritorio.",
+    "price": {
+      "amount": 52.18,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p68_01.jpg",
+      "alt": "Esferográfico Audi Rings"
+    },
+    "category": "Escritura"
+  },
+  {
+    "id": "audi-p69_01",
+    "slug": "esferografico-carbon",
+    "brand": "audi",
+    "name": "Esferográfico /Carbon",
+    "description": "Esferográfico Audi Sport en negro con acabado tipo fibra de carbono. Diseño deportivo y refinado.",
+    "price": {
+      "amount": 51.23,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p69_01.jpg",
+      "alt": "Esferográfico /Carbon"
+    },
+    "category": "Escritura"
+  },
+  {
+    "id": "audi-p70_01",
+    "slug": "audi-sport-biros-carbono",
+    "brand": "audi",
+    "name": "Audi Sport Biros Carbono",
+    "description": "Esferográfico Audi Sport con acabado de carbono y detalles en rojo. Estilo deportivo para escribir con carácter.",
+    "price": {
+      "amount": 54.33,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p70_01.jpg",
+      "alt": "Audi Sport Biros Carbono"
+    },
+    "category": "Escritura"
+  },
+  {
+    "id": "audi-p71_01",
+    "slug": "thermo-quattro-black-yellow",
+    "brand": "audi",
+    "name": "Thermo Quattro Black/Yellow",
+    "description": "Termo Quattro en negro con cinta amarilla y tapa metálica. Mantiene tus bebidas calientes o frías durante horas.",
+    "price": {
+      "amount": 124.78,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p71_01.jpg",
+      "alt": "Thermo Quattro Black/Yellow"
+    },
+    "category": "Bebidas y hogar"
+  },
+  {
+    "id": "audi-p72_01",
+    "slug": "quattro-mug-white",
+    "brand": "audi",
+    "name": "Quattro Mug White",
+    "description": "Taza blanca Quattro con diseño de líneas y tipografía gráfica. Ideal para el café de cada mañana.",
+    "price": {
+      "amount": 49.91,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p72_01.jpg",
+      "alt": "Quattro Mug White"
+    },
+    "category": "Bebidas y hogar"
+  },
+  {
+    "id": "audi-p73_01",
+    "slug": "tomatoddo-audi-sport-transp",
+    "brand": "audi",
+    "name": "Tomatoddo Audi Sport Transp",
+    "description": "Botella deportiva Audi Sport transparente con tapa roja de fácil apertura. Ligera y práctica para el gimnasio o la oficina.",
+    "price": {
+      "amount": 58.82,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p73_01.jpg",
+      "alt": "Tomatoddo Audi Sport Transp"
+    },
+    "category": "Bebidas y hogar"
+  },
+  {
+    "id": "audi-p75_01",
+    "slug": "botella-audi-gris",
+    "brand": "audi",
+    "name": "Botella Audi Gris",
+    "description": "Botella térmica Audi en gris con agarre texturizado y tapa de seguridad. Cómoda de llevar y perfecta para viajes.",
+    "price": {
+      "amount": 101.6,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p75_01.jpg",
+      "alt": "Botella Audi Gris"
+    },
+    "category": "Bebidas y hogar"
+  },
+  {
+    "id": "audi-p76_01",
+    "slug": "botella-audi-verde",
+    "brand": "audi",
+    "name": "Botella Audi Verde",
+    "description": "Botella térmica Audi en verde con agarre texturizado y tapa de seguridad. Un diseño distintivo para tus trayectos.",
+    "price": {
+      "amount": 101.6,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p76_01.jpg",
+      "alt": "Botella Audi Verde"
+    },
+    "category": "Bebidas y hogar"
+  },
+  {
+    "id": "audi-p77_01",
+    "slug": "audi-taza-termica-gris",
+    "brand": "audi",
+    "name": "Audi Taza Térmica Gris",
+    "description": "Taza térmica Audi en gris con asa y tapa. Conserva la temperatura de tus bebidas durante el trayecto.",
+    "price": {
+      "amount": 121.21,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p77_01.jpg",
+      "alt": "Audi Taza Térmica Gris"
+    },
+    "category": "Bebidas y hogar"
+  },
+  {
+    "id": "audi-p78_01",
+    "slug": "audi-botella-negra",
+    "brand": "audi",
+    "name": "Audi Botella Negra",
+    "description": "Botella Audi Sport en negro con logo lateral y tapa de fácil apertura. Ligera y práctica para hidratarte en cualquier lugar.",
+    "price": {
+      "amount": 71.3,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p78_01.jpg",
+      "alt": "Audi Botella Negra"
+    },
+    "category": "Bebidas y hogar"
+  },
+  {
+    "id": "audi-p79_01",
+    "slug": "caja-frigorifica",
+    "brand": "audi",
+    "name": "Caja Frigorifica",
+    "description": "Caja frigorífica Audi con interior térmico y bolsillos laterales. Ideal para viajes en carretera, paseos y días de campo.",
+    "price": {
+      "amount": 481.28,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p79_01.jpg",
+      "alt": "Caja Frigorifica"
+    },
+    "category": "Bebidas y hogar"
+  },
+  {
+    "id": "audi-p80_01",
+    "slug": "modelo-escala-q6-azul-1-18",
+    "brand": "audi",
+    "name": "Modelo Escala Q6 Azul 1:18",
+    "description": "Modelo a escala 1:18 del Audi Q6 en azul con gran detalle. Una pieza de colección para los amantes de la marca.",
+    "price": {
+      "amount": 213.9,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p80_01.jpg",
+      "alt": "Modelo Escala Q6 Azul 1:18"
+    },
+    "category": "Coleccionables"
+  },
+  {
+    "id": "audi-p82_01",
+    "slug": "modelo-escala-q8-etron-negro",
+    "brand": "audi",
+    "name": "Modelo Escala Q8 Etron Negro",
+    "description": "Modelo a escala del Audi Q8 e-tron en negro con acabado detallado. Perfecto para coleccionistas y como regalo.",
+    "price": {
+      "amount": 209.59,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p82_01.jpg",
+      "alt": "Modelo Escala Q8 Etron Negro"
+    },
+    "category": "Coleccionables"
+  },
+  {
+    "id": "audi-p83_01",
+    "slug": "tapa-de-valvulas-audi",
+    "brand": "audi",
+    "name": "Tapa De Válvulas Audi",
+    "description": "Tapas de válvulas Audi con el logo de los cuatro aros. Un detalle sencillo que personaliza tus neumáticos.",
+    "price": {
+      "amount": 53.48,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p83_01.jpg",
+      "alt": "Tapa De Válvulas Audi"
+    },
+    "category": "Accesorios"
+  },
+  {
+    "id": "audi-p84_01",
+    "slug": "limpiador-de-pantalla",
+    "brand": "audi",
+    "name": "Limpiador De Pantalla",
+    "description": "Limpiador de pantallas Audi con formato de bolsillo, en verde con logo. Mantén tu teléfono y pantallas siempre impecables.",
+    "price": {
+      "amount": 26.74,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p84_01.jpg",
+      "alt": "Limpiador De Pantalla"
+    },
+    "category": "Accesorios"
+  },
+  {
+    "id": "audi-p85_01",
+    "slug": "medidor-presion",
+    "brand": "audi",
+    "name": "Medidor/Presión",
+    "description": "Medidor de presión de neumáticos digital con logo Audi. Compacto y práctico para revisar tus llantas en cualquier momento.",
+    "price": {
+      "amount": 53.48,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p85_01.jpg",
+      "alt": "Medidor/Presión"
+    },
+    "category": "Accesorios"
+  },
+  {
+    "id": "audi-p86_01",
+    "slug": "chompa-polar-roja-hombre",
+    "brand": "audi",
+    "name": "Chompa Polar Roja Hombre",
+    "description": "Chompa polar roja para hombre con capucha y detalles en gris. Abrigada, cómoda y de estilo deportivo.",
+    "price": {
+      "amount": 80.21,
+      "currency": "USD"
+    },
+    "image": {
+      "src": "/brands/audi/products/p86_01.jpg",
+      "alt": "Chompa Polar Roja Hombre"
+    },
+    "category": "Ropa"
+  }
+]

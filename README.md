@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Catálogo de marcas (Next.js 16)
 
-## Getting Started
+Catálogo de productos multi‑marca. Hoy incluye **Audi** con datos locales; está preparado para leer de un **Drupal headless** más adelante sin tocar la UI.
 
-First, run the development server:
-
+## Ejecutar
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000  → /audi
+npm run build && npm start
 ```
+No requiere variables de entorno (ver `.env.example`).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Arquitectura
+```
+src/
+  app/                 rutas: / (marcas), /[brand] (catálogo), /[brand]/[slug] (detalle), /api/revalidate
+  config/brands/       una configuración por marca (textos, locale, mapeo Drupal)
+  domain/              tipos del dominio (Product, Money, Paginated…)
+  services/products/   ProductRepository (contrato), ProductService (lógica), mock, fallback, factory
+  services/drupal/     adaptador opcional JSON:API + mapper
+  components/
+    ui/ layout/ catalog/ product/   componentes reutilizables y agnósticos de marca
+    motion/                          animaciones reutilizables (Reveal, FadeImage, AnimatedNumber, ScrollProgress)
+  data/mock/           <marca>.products.json (datos locales)
+  app/globals.css      tokens de tema por marca ([data-brand="audi"])
+public/brands/<marca>/products/   imágenes
+scripts/excel-to-json.py          convierte el Excel en el JSON mock
+docs/drupal-contract.md           contrato para conectar Drupal
+```
+La UI solo importa `@/services/products`; el origen (mock o Drupal) se decide allí.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Añadir una marca nueva (p. ej. VW)
+1. Copiar imágenes a `public/brands/vw/products/`.
+2. Generar datos: `python scripts/excel-to-json.py <excel.xlsx> vw` → `src/data/mock/vw.products.json`.
+3. Crear `src/config/brands/vw.ts` y registrarla en `src/config/brands/index.ts`.
+4. Registrar el loader en `src/services/products/mock.repository.ts`.
+5. Añadir el bloque de tokens `[data-brand="vw"]` en `src/app/globals.css` (colores, radios).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Conectar Drupal (más adelante)
+Ver [docs/drupal-contract.md](docs/drupal-contract.md). Resumen: `DATA_SOURCE=drupal` + `DRUPAL_BASE_URL`; si el CMS falla se usan los datos locales.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Animaciones
+Motion + CSS; respetan `prefers-reduced-motion`. Transiciones de vista entre catálogo y detalle vía `<ViewTransition>` de React.
