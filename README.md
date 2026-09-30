@@ -42,11 +42,23 @@ Ver [docs/drupal-contract.md](docs/drupal-contract.md). Resumen: `DATA_SOURCE=dr
 ## Animaciones
 Motion + CSS; respetan `prefers-reduced-motion`. Transiciones de vista entre catálogo y detalle vía `<ViewTransition>` de React.
 
-## Publicar en GitHub Pages (exportación estática)
-`next.config.ts` usa `output: "export"` (genera la carpeta `out/`). Por eso:
-- El catálogo es estático y **filtra/ordena/pagina en el navegador** (`CatalogBrowser`); no usa `searchParams` de servidor.
-- No hay rutas de servidor: se eliminó `/api/revalidate`. Con export, los cambios en Drupal se reflejan **al volver a compilar** (puedes disparar el workflow desde un webhook de Drupal).
-- En Pages el sitio vive en `https://<usuario>.github.io/<repo>`, así que hay que compilar con `NEXT_PUBLIC_BASE_PATH=/<repo>`. El workflow `.github/workflows/pages.yml` ya lo hace (Settings → Pages → Source: *GitHub Actions*).
-- Compilar manualmente con prefijo:
-  - PowerShell: `$env:NEXT_PUBLIC_BASE_PATH="/mi-repo"; npm run build`
-  - Git Bash: `MSYS_NO_PATHCONV=1 NEXT_PUBLIC_BASE_PATH=/mi-repo npm run build`
+## Despliegue (dos destinos, un solo repo)
+`next.config.ts` decide el modo según variables de entorno:
+
+| Destino | Variables | Resultado |
+|---|---|---|
+| **GitHub Pages** | `STATIC_EXPORT=true` + `NEXT_PUBLIC_BASE_PATH=/<repo>` | `output: "export"` → carpeta `out/` |
+| **Firebase App Hosting** / servidor Node | ninguna | sin `output`; el adaptador de App Hosting genera su build `standalone` |
+
+> No fijar `output: "export"` de forma incondicional: en App Hosting el build falla con `ENOENT ... .next/standalone/.next/routes-manifest.json`.
+
+### GitHub Pages
+- El workflow `.github/workflows/pages.yml` ya define ambas variables (Settings → Pages → Source: *GitHub Actions*).
+- El catálogo es estático y **filtra/ordena/pagina en el navegador** (`CatalogBrowser`); no usa `searchParams` de servidor ni rutas de servidor. Con Drupal, el contenido se actualiza **al volver a compilar** (se puede disparar el workflow desde un webhook).
+- Compilar a mano:
+  - PowerShell: `$env:STATIC_EXPORT="true"; $env:NEXT_PUBLIC_BASE_PATH="/mi-repo"; npm run build`
+  - Git Bash: `MSYS_NO_PATHCONV=1 STATIC_EXPORT=true NEXT_PUBLIC_BASE_PATH=/mi-repo npm run build`
+
+### Firebase App Hosting
+- No necesita variables. Conecta el repositorio y la rama `main`; el directorio raíz es la raíz del repo.
+- `DATA_SOURCE` sigue en `mock` por defecto (ver `.env.example` y `docs/drupal-contract.md` para activar Drupal).

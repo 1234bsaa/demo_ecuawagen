@@ -28,6 +28,7 @@ jobs:
         env:
           # Sitio de proyecto: https://<usuario>.github.io/<repo>
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+          STATIC_EXPORT: "true"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
